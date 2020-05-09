@@ -16,13 +16,13 @@ nextEdge(9, 2) ➞ 10
 //due to the triangle inequality theorem any two sides of a triangle need to add to up to be more than the third side
 
 // function nextEdge(side1, side2) {
-//     return side1 + side2 - 1;
+//     return (side1 + side2) - 1;
 //
 
 // }
 
 let nextEdge = (side1, side2) => {
-	let maxLength = side1 + side2 - 1;
+	let maxLength = (side1 + side2) - 1;
 	return maxLength;
 };
 console.log(nextEdge(9, 2));
