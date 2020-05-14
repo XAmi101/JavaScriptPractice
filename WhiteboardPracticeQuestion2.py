@@ -1,7 +1,7 @@
 # Print out each element of the following array on a separate line:
 array1 = ['Joe', 2, 'Ted', 4.98, 14, 'Sam', 'void *', '42', 'float', 'pointers', 5006]
 
-
+# MY ANS
 print(*array1, sep = "\n") 
 
 # first we set the array to a variable named arrray1
