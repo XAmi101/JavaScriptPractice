@@ -34,5 +34,10 @@ nums.length == 2n
  
  
 let shuffle = function(nums, n) {
-    
+ nums.sort(() => Math.random() - 0.5);
+  
 };
+
+
+nums = [1, 2, 3, 4];
+shuffle(nums);
