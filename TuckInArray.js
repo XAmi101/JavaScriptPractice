@@ -13,7 +13,7 @@ Use the spread syntax to solve this challenge.
 **/
 
 function tuckIn(arr1, arr2) {
-	arr1.splice(2, 0, ...arr2);	
+	return arr1.splice(2, 0, ...arr2);	
 // 	return 
 }
 
