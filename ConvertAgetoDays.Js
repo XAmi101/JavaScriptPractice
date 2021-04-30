@@ -16,3 +16,15 @@ Expect only positive integer inputs.
 function calcAge(age) {
 	
 }
+
+/**
+function calculate_age(dob) { 
+    var diff_ms = Date.now() - dob.getTime();
+    var age_dt = new Date(diff_ms); 
+  
+}
+
+console.log(calculate_age(new Date(1982, 11, 4)));
+
+
+**/
