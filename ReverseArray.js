@@ -20,4 +20,4 @@ function reverseArray(ar)
 
 let ar = [1, 2, 3];
 let ar2 = reverseArray(ar);
-println(ar2);
+println(ar2); 
