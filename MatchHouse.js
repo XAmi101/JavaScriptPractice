@@ -43,14 +43,11 @@ console.log(matchHouses(87)) // 436)
 console.log(matchHouses(4)) //21)
 
 
-Test.assertEquals(matchHouses(17), 86)
+console.log(matchHouses(17)) // 86)
+
+/**
 
 Test.assertEquals(matchHouses(36), 181)
 
 Test.assertEquals(matchHouses(15), 76)
 
-Test.assertEquals(matchHouses(99), 496)
-
-Test.assertEquals(matchHouses(3), 16)
-
-Test.assertEquals(matchHouses(87), 436)
