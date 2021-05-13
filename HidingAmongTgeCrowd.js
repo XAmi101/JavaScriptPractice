@@ -16,7 +16,7 @@ detectWord("YFemHUFBbezFBYzFBYLleGBYEFGBMENTment") ➞ "embezzlement"
 
 function detectWord(str) {
     return str.replace(/[A-Z]/g, '');
-    //return str.match(/[a-z]/g).join(""). // alt method
+    //return str.match(/[a-z]/g).join(""); // alt method
 }
 }
 
