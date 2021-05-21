@@ -15,12 +15,18 @@ If given an empty array, return 0.
 
 **/
 
+/**
 
 function sumOfCubes(arrayNums) {
 	return arrayNums.reduce((acc, value) => acc+(value*value*value),0)
 }
+**/
 
 console.log(sumOfCubes([3, 4, 5]) ) //➞ 216
 Console.log(sumOfCubes([2])); //➞ 8
 
 //Math.pow(base, exponent)
+
+function sumOfCubes(arrayNums) {
+	return arrayNums.reduce((acc, value) => acc + Math.pow(value, 3), 0);
+}
