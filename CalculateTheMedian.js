@@ -14,5 +14,7 @@ See Resources tab for info on calculating the median.
 **/
 
 function median(arr) {
-	
+  sorted = arr.sort((a, b) => a - b);
+  if (arr.length 
 }
+
