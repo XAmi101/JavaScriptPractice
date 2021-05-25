@@ -15,6 +15,11 @@ See Resources tab for info on calculating the median.
 
 function median(arr) {
   sorted = arr.sort((a, b) => a - b);
-  if (arr.length 
+  if (arr.length % 2 !== 0) {
+    return arr[(arr.length - 1) / 2]
+  } else {
+    return (arr[arr.length / 2] + arr[arr.length / 2 - 1]) / 2
+  }
 }
 
+console.log(median([2, 5, 6, 2, 6, 3, 4]))
