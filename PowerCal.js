@@ -11,3 +11,8 @@ circuitPower(480, 20) ➞ 9600
 Notes
 Requires basic calculation of electrical circuits (see Resources for info).
 **/
+
+function circuitPower(voltage, current) {
+    let power = voltage * current;
+    return power;
+}
