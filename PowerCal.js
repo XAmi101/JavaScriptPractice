@@ -16,3 +16,5 @@ function circuitPower(voltage, current) {
     let power = voltage * current;
     return power;
 }
+
+console.log(circuitPower(480, 20));
