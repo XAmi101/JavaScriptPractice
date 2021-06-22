@@ -17,3 +17,9 @@ Notes
 If n is larger than the length of the array, return the sum of the whole array.
 
 **/
+
+function sliceSum(arr, n) {
+    return arr.slice(0,n).reduce((accum,curr) => accum + curr, 0);
+}
+
+console.log(
