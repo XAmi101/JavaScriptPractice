@@ -38,11 +38,10 @@ words[i] only consists of lowercase English letters
 
 
 
-// @param {string[]} words
-//@return {number}
+@param {string[]} words //
+@return {number} //
 
 var longestStrChain = function(words) {
-    
 
 };
  
