@@ -38,10 +38,21 @@ words[i] only consists of lowercase English letters
 
 
 
-@param {string[]} words //
-@return {number} //
+//@param {string[]} words
+// @return {number}
 
-var longestStrChain = function(words) {
-
+let longestStrChain = function(words) {
+    let map = new Map()
+    
+    if(words.length === 0) {
+        return 0
+    }
+    
+    words.sort((a, b) => a.length - b.length)
+    
+    let result = 0
+    
+    for(let i=0; i<words.length; i++) {
+        let currentBest = 0
 };
  
