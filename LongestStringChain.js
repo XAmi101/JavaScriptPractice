@@ -54,5 +54,6 @@ let longestStrChain = function(words) {
     
     for(let i=0; i<words.length; i++) {
         let currentBest = 0
+//Working
 };
  
