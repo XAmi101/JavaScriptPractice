@@ -14,6 +14,7 @@ Don't overthink this challenge; it's not supposed to be hard.
 **/
 
 function squaed(b) {
-    return a * a
+   // return a * a
+   return b ** 2
 }
-//Fix the code
+// code fixed
