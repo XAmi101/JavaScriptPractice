@@ -15,6 +15,8 @@ Don't overthink this challenge; it's not supposed to be hard.
 
 function squaed(b) {
    // return a * a
-   return b ** 2
+   return b ** 2 // or Math.pow(b,2);
 }
 // code fixed
+
+console.log(squared(9) ➞ 81)
