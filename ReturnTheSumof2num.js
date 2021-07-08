@@ -15,5 +15,8 @@ If you're really stuck, unlock solutions in the Solutions tab.
 
 
 function addition(a, b) {
-	Return a+ b
+    return a+ b
 }
+
+
+console.log(addition(-3, -6));
