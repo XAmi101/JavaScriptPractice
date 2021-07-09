@@ -9,3 +9,7 @@ giveMeSomething("something") ➞ "something something"
 Notes
 Assume an input is given.
 **/
+
+function giveMeSomething(a) {
+	
+}
