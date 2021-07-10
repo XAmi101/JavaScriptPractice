@@ -11,5 +11,5 @@ Assume an input is given.
 **/
 
 function giveMeSomething(a) {
-	
+    return 'something ' + a 
 }
