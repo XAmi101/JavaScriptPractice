@@ -19,5 +19,5 @@ Notes
 **/
 
 function findSingleNumber(numbers) {
-	
+    return numbers.filter(g=>numbers.indexOf(g)===numbers.lastIndexOf(g))[0] || null;
 }
