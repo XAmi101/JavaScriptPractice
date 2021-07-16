@@ -21,3 +21,12 @@ Notes
 function findSingleNumber(numbers) {
     return numbers.filter(g=>numbers.indexOf(g)===numbers.lastIndexOf(g))[0] || null;
 }
+
+
+/**
+let findSingleNumber = n => {
+	return n.find(x => n.indexOf(x) === n.lastIndexOf(x)) || null;
+}
+**/
+
+Console.log(findSingleNumber([2, 2, 2, 3, 4, 4, 4]))
