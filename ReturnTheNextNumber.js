@@ -16,7 +16,7 @@ function addition(num) {
   /**if(num>=0 || num<0){
     return ++num;
   }**/
-  return ++num;
+  return ++num;. // OR return num+1
 }
 console.log(addition(0));
 console.log(addition(-3));	
