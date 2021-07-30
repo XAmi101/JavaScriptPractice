@@ -12,7 +12,8 @@ The first element in an array always has an index of 0.
 **/
 
 function getFirstValue(arr) {
-   return arr.shift();
+   return arr.shift(); // or arr[0]
+     
 }
 
 console.log(getFirstValue([1, 2, 3]));
