@@ -1,14 +1,13 @@
 /**
-Create a function that takes a number as an argument, increments the number by +1 and returns the result.
+Create a function that takes length and width and finds the perimeter of a rectangle.
 
 Examples
-addition(0) ➞ 1
-addition(9) ➞ 10
-addition(-3) ➞ -2
+findPerimeter(6, 7) ➞ 26
+findPerimeter(20, 10) ➞ 60
+findPerimeter(2, 9) ➞ 22
 
 Notes
 Don't forget to return the result.
-If you get stuck on a challenge, find help in the Resources tab.
-If you're really stuck, unlock solutions in the Solutions tab.
-
+If you're stuck, find help in the Resources tab.
+If you're really stuck, find solutions in the Solutions tab.
 **/
