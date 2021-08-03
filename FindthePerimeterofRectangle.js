@@ -11,3 +11,7 @@ Don't forget to return the result.
 If you're stuck, find help in the Resources tab.
 If you're really stuck, find solutions in the Solutions tab.
 **/
+
+function findPerimeter(length, width) {
+	
+}
