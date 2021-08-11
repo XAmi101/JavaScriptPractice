@@ -13,3 +13,7 @@ football_points(0, 0, 1) ➞ 0
 Notes
 Inputs will be numbers greater than or equal to 0.
 **/
+
+function footballPoints(wins, draws, losses) {
+   return;
+}
