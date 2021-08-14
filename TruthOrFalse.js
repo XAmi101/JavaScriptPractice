@@ -26,8 +26,10 @@ If you're really stuck, unlock solutions in the Solutions tab.
 
 function isTruthy(input) {
   if (input == true) {
-    console.log(1);
+    return 1;
   } else {
-    console.log(0);
+    return 0;
   }
 }
+
+console.log(isTruthy("false"));
