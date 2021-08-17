@@ -13,5 +13,8 @@ a will always be greater than or equal to b.
 **/
 
 function dividesEvenly(a, b) {
-     return Number.isInteger(a/b)
+     //return Number.isInteger(a/b);
+     return a%b === 0;
   }
+
+Console.log(dividesEvenly(98, 7));
