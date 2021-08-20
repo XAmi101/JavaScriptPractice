@@ -12,5 +12,6 @@ All array items are of the type bool (true or false).
 **/
 
 function countTrue(arr) {
-	
+   return arr.filter(Boolean).length;
 }
+
