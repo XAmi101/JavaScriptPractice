@@ -12,6 +12,14 @@ All array items are of the type bool (true or false).
 **/
 
 function countTrue(arr) {
-   return arr.filter(Boolean).length;
+   //return arr.filter(Boolean).length;
+   Let count=0;
+     for(let element of arr){
+       if(element == true){
+         count= count++
+       }
+     }
+   return count
 }
 
+console.log(countTrue([true, false, false, true, false]))
