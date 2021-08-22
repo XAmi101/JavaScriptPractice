@@ -13,3 +13,7 @@ Notes
 Return true or false.
 Some countries have a slightly higher drinking age, but for the purposes of this challenge, it will be 18.
 **/
+
+function shouldServeDrinks(age, onBreak) {
+	
+}
