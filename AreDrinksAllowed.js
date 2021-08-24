@@ -15,5 +15,9 @@ Some countries have a slightly higher drinking age, but for the purposes of this
 **/
 
 function shouldServeDrinks(age, onBreak) {
-	
+    if (age>=18 && onBreak == false) {
+        return true;
+    } else {
+        return false;
+    }
 }
