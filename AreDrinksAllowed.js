@@ -21,3 +21,5 @@ function shouldServeDrinks(age, onBreak) {
         return false;
     }
 }
+
+console.log(shouldServeDrinks(17, true));
