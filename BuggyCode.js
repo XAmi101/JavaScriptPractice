@@ -9,3 +9,11 @@ Notes
 Don't overthink this challenge (look at the syntax and correct it).
 
 **/
+
+function has_bugs(buggy_code) {
+    if (buggy_code == true) {
+      return 'sad days';
+    } else {
+      
+    }
+}
