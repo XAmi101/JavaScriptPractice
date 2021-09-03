@@ -25,5 +25,10 @@ If you're really stuck, unlock solutions in the Solutions tab.
 **/
 
 function checkEquality(a, b) {
-
+    if (a===b) {
+        return true;
+    } else {
+        return false;
+    }
 }
+
