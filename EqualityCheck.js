@@ -32,3 +32,4 @@ function checkEquality(a, b) {
     }
 }
 
+console.log(checkEquality(0, true));
