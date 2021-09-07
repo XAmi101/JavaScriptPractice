@@ -11,3 +11,13 @@ READ EVERY WORD CAREFULLY, CHARACTER BY CHARACTER!
 Don't overthink this challenge; it's not supposed to be hard.
 
 **/
+
+function maxNum(n1;n2) {
+	if (n1>n2) {
+	  return n2
+	}
+  else if {
+	return n1
+  }
+}
+
