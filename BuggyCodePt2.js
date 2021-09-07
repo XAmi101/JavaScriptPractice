@@ -20,3 +20,4 @@ function maxNum(n1,n2) {
   }
 }
 
+console.log(maxNum(1000, 400) );
