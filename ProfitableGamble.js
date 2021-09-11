@@ -16,5 +16,11 @@ A profitable gamble is a game that yields a positive net profit, where net profi
 **/
 
 function profitableGamble(prob, prize, pay) {
-	
+    if (prob*prize>pay) {
+        return true;
+    }else{
+        return false;
+    }
 }
+
+console.log(profitableGamble(0.9, 3, 2))
