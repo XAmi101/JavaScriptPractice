@@ -12,3 +12,10 @@ Notes
 READ EVERY WORD CAREFULLY, CHARACTER BY CHARACTER!
 Don't overthink this challenge; it's not supposed to be hard.
 **/
+
+function greeting(name) {
+  return "Hello, " + name + "!";
+  if(name == "Mubashir") {
+    return "Hello, my Love!";
+  }
+}
