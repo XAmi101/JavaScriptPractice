@@ -14,8 +14,15 @@ Don't overthink this challenge; it's not supposed to be hard.
 **/
 
 function greeting(name) {
-  return "Hello, " + name + "!";
+  //return "Hello, " + name + "!"; MOVE THIS
   if(name == "Mubashir") {
     return "Hello, my Love!";
-  }
+  }else{ //ADD THIS
+      return "Hello, " + name + "!";
+    }
 }
+
+console.log(greeting("Mubashir"));
+
+
+//Code is fixed
