@@ -9,3 +9,7 @@ makePair(512124, 215) ➞ [512124, 215]
 Notes
 N/A
 **/
+
+function makePair(num1, num2) {
+	
+}
