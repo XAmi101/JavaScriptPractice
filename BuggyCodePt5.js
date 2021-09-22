@@ -14,7 +14,7 @@ Don't overthink this challenge; it's not supposed to be hard.
 
 function printArray(number) {
   var newArray = [];
-  for(var i = 1; i <= number+1; i++) {
+  for(var i = 1; i <= number; i++) {
     newArray.push(i);
   }
   return newArray;
