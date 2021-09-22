@@ -14,10 +14,13 @@ Don't overthink this challenge; it's not supposed to be hard.
 
 function printArray(number) {
   var newArray = [];
-  for(var i = 1; i <= number;) {
+  for(var i = 1; i <= number+1; i++) {
     newArray.push(i);
   }
   return newArray;
 }
 
-console.log()
+console.log(printArray(6));
+
+
+// Code fixed
