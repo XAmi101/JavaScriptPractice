@@ -11,3 +11,13 @@ READ EVERY WORD CAREFULLY, CHARACTER BY CHARACTER!
 Don't overthink this challenge; it's not supposed to be hard.
 
 **/
+
+function printArray(number) {
+  var newArray = [];
+  for(var i = 1; i <= number;) {
+    newArray.push(i);
+  }
+  return newArray;
+}
+
+console.log()
