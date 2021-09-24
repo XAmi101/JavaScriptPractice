@@ -18,5 +18,10 @@ Humanity's fate lies in your calculation
 **/
 
 function futurePeople(population, n) {
-	
+    let laterPop= population + n * 12 * 30
+    return laterPop
 }
+
+console.log(futurePeople(256, 2) )
+
+//the sum of the population and n months years
