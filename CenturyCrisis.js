@@ -16,3 +16,7 @@ Notes
 Humanity's fate lies in your calculation
 
 **/
+
+function futurePeople(population, n) {
+	
+}
