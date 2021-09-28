@@ -11,3 +11,7 @@ fiftyThirtyTwenty(13450) ➞ { "Needs": 6725, "Wants": 4035, "Savings": 2690 }
 Notes
 N/A
 **/
+
+function fiftyThirtyTwenty(ati) {
+	
+}
