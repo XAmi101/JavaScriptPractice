@@ -11,7 +11,7 @@ fiftyThirtyTwenty(13450) ➞ { "Needs": 6725, "Wants": 4035, "Savings": 2690 }
 Notes
 N/A
 **/
-
+/**
 function fiftyThirtyTwenty(ati) {
      var needs= (ati/100)*50;
      var wants= (ati/100)*30;
@@ -21,3 +21,12 @@ function fiftyThirtyTwenty(ati) {
     "Wants: " + wants + ", " +
     "Savings: " + savings ];
 }
+ 
+OR **/
+
+const fiftyThirtyTwenty =(ati) => ({Needs: '${ati * 0.5}', Wants: '${ati *  0.3}', Savings: ' ${ati * 0.2}'});
+
+
+
+
+console.log(fiftyThirtyTwenty(10000))
