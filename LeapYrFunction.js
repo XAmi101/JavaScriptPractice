@@ -16,3 +16,7 @@ Notes
 Do not overthink this challenge.
 You can solve the problem with a few lines of code.
 **/
+
+function leapYear(year) {
+	
+}
