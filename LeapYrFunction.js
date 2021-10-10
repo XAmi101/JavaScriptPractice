@@ -26,3 +26,5 @@ function leapYear(year) {
       return false;
     }	
 }
+
+console.log(leapYear(2021));
