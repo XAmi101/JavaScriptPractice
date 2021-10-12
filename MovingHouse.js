@@ -13,3 +13,8 @@ You can assume that the tests include people who've always lived in a house.
 Round to the nearest year.
 
 **/
+
+function yearsInOneHouse(age, moves) {
+    var result = age/(moves+1);
+    return Math.round(result);
+}
