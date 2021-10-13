@@ -19,4 +19,4 @@ function yearsInOneHouse(age, moves) {
     return Math.round(result);
 }
 
-Console.log(yearsInOneHouse(15, 2));
+console.log(yearsInOneHouse(15, 2));
