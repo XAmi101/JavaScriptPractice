@@ -18,3 +18,5 @@ function yearsInOneHouse(age, moves) {
     var result = age/(moves+1);
     return Math.round(result);
 }
+
+Console.log(yearsInOneHouse(15, 2));
