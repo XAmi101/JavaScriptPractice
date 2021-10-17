@@ -15,3 +15,11 @@ age is a decimal.
 isSupervised is a boolean.
 
 **/
+
+function acceptIntoMovie(age, isSupervised) {
+    if (age>=15 ||  isSupervised== true) {
+      return true;
+    } else {
+      return false;
+    }
+  }
