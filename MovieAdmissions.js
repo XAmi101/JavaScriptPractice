@@ -23,3 +23,5 @@ function acceptIntoMovie(age, isSupervised) {
       return false;
     }
   }
+
+Console.log(acceptIntoMovie(14, false));
