@@ -20,3 +20,6 @@ function squareAreasDifference(r) {
   return  2 * r ** 2;
 }
 
+//const squareAreasDifference = r => 2 * radius ** 2;
+
+console.log(squareAreasDifference(7) )
