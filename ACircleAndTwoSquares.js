@@ -15,3 +15,8 @@ Notes
 Use only positive integer parameters.
 
 **/
+
+function squareAreasDifference(r) {
+  return  2 * r ** 2;
+}
+
