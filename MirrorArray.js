@@ -11,6 +11,10 @@ Do not repeat the last item of the given array.
 **/
 
 function mirror(arr) {
-    return arr.concat(arr.slice(0, arr.length - 1).reverse())
+    //return arr.concat(arr.slice(0, arr.length - 1).reverse())
+    return [...arr, ...arr.reverse().slice(1)];
 }
 
+Console.log(mirror([1,2,3,4,5]))
+
+//const mirrors = arr => [...arr, ...arr.reverse().slice(1)];
