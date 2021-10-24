@@ -16,3 +16,11 @@ swap(21, 12) ➞ [12, 21]
 Notes
 N/A
 **/
+
+function swap(a, b) {
+	b = a
+	a = b
+	return [a, b]
+}
+
+//Fix the code
