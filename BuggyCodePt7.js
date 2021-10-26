@@ -18,9 +18,11 @@ N/A
 **/
 
 function swap(a, b) {
-	b = a
-	a = b
-	return [a, b]
+	//b = a
+	//a = b
+	//return [a, b]
+        return [b,a]
+
 }
 
-//Fix the code
+//code fixed
