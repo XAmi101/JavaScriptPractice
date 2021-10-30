@@ -19,4 +19,4 @@ function pHName(pH) {
 	else return 'invalid';
 }
 
-
+console.log(pHName(9));
