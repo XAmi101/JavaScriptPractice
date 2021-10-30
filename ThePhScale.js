@@ -11,3 +11,12 @@ pHName(7) ➞ "neutral"
 Notes
 Values such as 6.9999 and 8.00001 should return "acidic" and "alkaline" respectively.
 **/
+
+function pHName(pH) {
+	if (pH < 7 && pH >= 0) return 'acidic'; 
+	if (pH > 7 && pH <= 14)return 'alkaline';
+	if (pH === 7) return 'neutral';
+	else return 'invalid';
+}
+
+
