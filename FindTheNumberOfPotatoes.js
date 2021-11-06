@@ -5,10 +5,14 @@ Examples
 potatoes("potato") ➞ 1
 potatoes("potatopotato") ➞ 2
 potatoes("potatoapple") ➞ 1
-Notes
+
+
 
 **/
 
 function potatoes(str) {
-	
+     return str.match(/potato/g).length
+
 }
+
+console.log(potatoes("potatopotato"))
