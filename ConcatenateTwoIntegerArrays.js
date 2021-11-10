@@ -10,3 +10,7 @@ Notes
 Don't forget to return the result.
 See Resources tab for more info.
 **/
+
+function concat(arr1, arr2) {
+	
+}
