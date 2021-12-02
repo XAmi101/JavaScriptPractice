@@ -12,6 +12,8 @@ Don't overthink this challenge; it's not supposed to be hard.
 
 **/
 
-function squaed(b) {
+function squared(a) {
 	return a * a
 }
+
+console.log(squared(7))
