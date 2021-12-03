@@ -11,3 +11,7 @@ If inches are under 12, return 0.
 12 inches = 1 foot.
 
 **/
+
+function inchesToFeet(inches) {
+	
+}
