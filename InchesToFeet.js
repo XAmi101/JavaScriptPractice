@@ -13,5 +13,9 @@ If inches are under 12, return 0.
 **/
 
 function inchesToFeet(inches) {
-	
+    if (inches>12) {
+        return inches/12;
+    } else {
+        return 0;
+    }
 }
