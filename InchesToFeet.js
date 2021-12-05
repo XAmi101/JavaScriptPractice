@@ -19,3 +19,6 @@ function inchesToFeet(inches) {
         return 0;
     }
 }
+
+
+console.log(inchesToFeet(72))
