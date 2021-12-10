@@ -14,6 +14,5 @@ Are available.
 
 function reversePsychology(s) {
 	
-
-
+   return `Do not ${s ? s : 'do anything'}.`
 }
