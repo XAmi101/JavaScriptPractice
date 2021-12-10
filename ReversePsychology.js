@@ -16,14 +16,21 @@ function reversePsychology(s) {
 	
   // return `Do not ${s ? s : 'do anything'}.`;
   // return `Do not ${s || `do anything`}.`; 
-  
+ /** 
   if (s) {
 	return "Do not " + s +".";
   } else {
 	return 'Do not do anything.';
   }
+  **/
+
+  //return s ? "Do not " + s +"." : "Do not do anything.";
+  //return s !== undefined ? `Do not ${s}.` : 'Do not do anything.'
+  //return s == null ? "Do not do anything." : "Do not " + s + "."
 }
 
+//Let reversePsychology = s => !s ? 'Do not do anything.' : `Do not ${s}.`;
 //let reversePsychology = s => `Do not ${s || `do anything`}.`;
+//let reversePsychology = s => s ? `Do not ${s}.` : 'Do not do anything.';
 
 console.log( reversePsychology("eat your lunch") );
