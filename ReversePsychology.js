@@ -14,5 +14,16 @@ Are available.
 
 function reversePsychology(s) {
 	
-   return `Do not ${s ? s : 'do anything'}.`
+  // return `Do not ${s ? s : 'do anything'}.`;
+  // return `Do not ${s || `do anything`}.`; 
+  
+  if (s) {
+	return "Do not " + s +".";
+  } else {
+	return 'Do not do anything.';
+  }
 }
+
+//let reversePsychology = s => `Do not ${s || `do anything`}.`;
+
+console.log( reversePsychology("eat your lunch") );
