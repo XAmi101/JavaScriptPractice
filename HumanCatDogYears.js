@@ -34,3 +34,5 @@ function calculateYears(humanYears) {
   }
 	
 }
+
+console.log( calculateYears(7))
