@@ -54,7 +54,7 @@ function calculateYears(humanYears) {
   for (let i = 2; i <= humanYears; i++) {
     if (i == 2) { cats += 9; dogs += 9 } else { cats += 4; dogs += 5 }
   }
- return [humanYears, cats, dogd]
+ return [humanYears, cats, dogs]
 
 
 }
