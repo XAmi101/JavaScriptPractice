@@ -49,12 +49,24 @@ function calculateYears(humanYears) {
   return [humanYears, cat, dog]	
 **/
 
+/**
   let cats = 15
   let dogs = 15  
   for (let i = 2; i <= humanYears; i++) {
     if (i == 2) { cats += 9; dogs += 9 } else { cats += 4; dogs += 5 }
   }
  return [humanYears, cats, dogs]
+**/
+
+  [a,b,c]=[h,0,0]
+  for(let i=h; i>=1; i--) {
+    if (i==1) { b+=15; c+=15}
+    else if (i==2) { b+=9; c+=9}
+    else {b+=4; c+=5}
+  }
+  return [a,b,c]
+
+
 
 }
 
