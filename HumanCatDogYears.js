@@ -56,7 +56,22 @@ function calculateYears(humanYears) {
   }
  return [humanYears, cats, dogs]
 
-
 }
+
+
+/** 
+//Rewriting answer
+function calculateYears(humanYears) {
+[h, c, d] = [1, 15, 15];
+  if(humanYears == h) {
+    return [h, c, d];
+  } else if(humanYears == 2) {
+    return [humanYears, c+9, d+9];
+  } else {
+    return [humanYears, c+9+(humanYears-2)*4, d+9+(humanYears-2)*5];
+  }
+}
+
+**/
 
 console.log( calculateYears(7))
