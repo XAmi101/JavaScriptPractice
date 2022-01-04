@@ -10,3 +10,10 @@ Notes
 Don't forget to return the result.
 
 **/
+
+
+function makesTen(a, b) {
+	
+
+
+}
