@@ -19,3 +19,4 @@ function makesTen(a, b) {
       return false;
 }
 
+console.log(makesTen(1, 9));
