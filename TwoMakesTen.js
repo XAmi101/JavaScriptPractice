@@ -13,8 +13,9 @@ Don't forget to return the result.
 
 
 function makesTen(a, b) {
-   if(a||b & a+b === 10){
+   if(a||b==10||a+b === 10){
       return true;
    }else{
       return false;
 }
+
