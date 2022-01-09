@@ -14,11 +14,11 @@ Don't forget to return the result.
 
 function makesTen(a, b) {
     if(a ===10||b === 10){
-	return true
+	return true;
     } else if(a+b === 10){
-	return true
+	return true;
     } else {
-	return false
+	return false;
     }
 }
 
