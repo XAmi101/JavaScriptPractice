@@ -11,7 +11,7 @@ Don't forget to return the result.
 
 **/
 
-
+/**
 function makesTen(a, b) {
     if(a ===10||b === 10){
 	return true;
@@ -21,5 +21,8 @@ function makesTen(a, b) {
 	return false;
     }
 }
+**/
+
+const makesTen = (a, b) => [a, b, a + b].includes(10);
 
 console.log(makesTen(10, 9));
