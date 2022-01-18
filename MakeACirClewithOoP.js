@@ -13,4 +13,5 @@ circy.getPerimeter()
 
 // Should return 27.897342763877365
 Notes
+**/
 Don't worry about floating point precision - I've factored in the chance that your answer may be more or less accurate than mine. This is more of a tutorial than a challenge so the topic covered may be considered advanced, yet the challenge is more simple - so if this challenge gets labelled as easy, don't worry too much.
