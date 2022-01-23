@@ -42,13 +42,17 @@ class Circle {
 	getPerimeter() {
 		return 2 * Math.PI * this.radius
 	}
+
+/*
+
+*/
 }
 
 
 // unquote and use run to test these cases:
 
-/*let q = new Circle(4.44);
+let q = new Circle(4.44);
 console.log(q.getArea());
 console.log(q.getPerimeter());
-*/
+
 
