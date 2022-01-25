@@ -30,7 +30,7 @@ class Rectangle {
 
 class Circle {
 	// put your code here
-
+/*
        constructor(radius) {
 	        this.radius = radius
 	}
@@ -43,7 +43,6 @@ class Circle {
 		return 2 * Math.PI * this.radius
 	}
 
-/*
 
 */
 }
