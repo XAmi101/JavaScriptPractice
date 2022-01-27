@@ -45,12 +45,12 @@ class Circle {
 
 
 */
-constructor(sideA,sideB){
-    this.sideA = sideA;
-    this.sideB = sideB;
+constructor(radius) {
+    this.radius = radius
   }
-  getArea(){return this.sideA*this.sideB};
-  getPerimeter(){return (this.sideA + this.sideB) *2 };
+  getArea() { return (Math.PI * (this.radius ** 2)) }
+  getPerimeter() { return 2 * (Math.PI * this.radius) }
+
 }
 
 
