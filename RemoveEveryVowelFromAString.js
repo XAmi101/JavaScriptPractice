@@ -15,3 +15,8 @@ Notes
 "y" is not considered a vowel.
 
 **/
+
+function removeVowels(str) {
+
+	
+}
