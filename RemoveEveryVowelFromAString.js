@@ -20,3 +20,6 @@ function removeVowels(str) {
   return str.replace(/[aeiou]/ig, '');
 	
 }
+
+
+console.log (removeVowels("Happy Thanksgiving to all--even the haters and losers!"));
